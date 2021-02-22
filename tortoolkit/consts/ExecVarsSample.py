@@ -7,17 +7,17 @@ except:
         
         API_HASH = "af327dd857e0e65f80fefcf6d0af4afd"
         API_ID = 1309280
-        BOT_TOKEN = "1114133501:AAHUSoXQZgR56CaKo2YwA-7jRStHVWgpklA"
-        BASE_URL_OF_BOT = "https://t.me/ShreeLinkbot"
+        BOT_TOKEN = "1357388989:AAGUQR3Fc6kCMlFL5Kzz_aB1-w4I4qTBGIA"
+        BASE_URL_OF_BOT = "https://t.me/ShreeScreenShotbot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1087968824,-1001235612527]
+        ALD_USR = [1087968824,-1001244341657]
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -58,13 +58,13 @@ except:
         RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "My Drive"
 
         # Max size of a playlist that is allowed (Number of videos)
         MAX_YTPLAYLIST_SIZE = 500
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 500
+        MAX_TORRENT_SIZE = 100000
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
